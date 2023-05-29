@@ -1,9 +1,22 @@
 <header>
-    <mat-toolbar color="primary">
-      <mat-toolbar-row>
-        <span>Logo</span>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row class="nav-bar">
+      <span>Logo</span>
+      <div class="nav-buttons" *ngIf="isDesktop">
+        <!-- Display full navigation for desktop -->
         <button mat-button routerLink="/" routerLinkActive="active">Home</button>
         <button mat-button routerLink="/mobile" routerLinkActive="active">Mobile</button>
-      </mat-toolbar-row>
-    </mat-toolbar>
-  </header>
+      </div>
+      <div *ngIf="isMobile">
+        <!-- Display menu button for mobile -->
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item routerLink="/" routerLinkActive="active">Home</button>
+          <button mat-menu-item routerLink="/mobile" routerLinkActive="active">Mobile</button>
+        </mat-menu>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</header>

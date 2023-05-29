@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon'; 
+import { MatMenuModule } from '@angular/material/menu';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
