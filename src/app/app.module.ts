@@ -17,6 +17,7 @@ import { CcaComponent } from './cca/cca.component';
 import { MatCardModule } from '@angular/material/card';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { MatCardModule } from '@angular/material/card';
     LayoutComponent,
     HomeComponent,
     MobileComponent,
-    CcaComponent
+    CcaComponent,
+
   ],
   imports: [
     BrowserModule,

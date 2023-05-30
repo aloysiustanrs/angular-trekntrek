@@ -1,25 +1,13 @@
-<header>
-  <mat-toolbar color="primary">
-    <mat-toolbar-row class="nav-bar">
-      <button class="logo" mat-button routerLink="/" routerLinkActive="active">TrekNTrack</button>
-      <div class="nav-buttons" *ngIf="isDesktop">
-        <!-- Display full navigation for desktop -->
-        <button mat-button routerLink="/" routerLinkActive="active">Home</button>
-        <button mat-button routerLink="/cca" routerLinkActive="active">CCA</button>
-        <button mat-button routerLink="/mobile" routerLinkActive="active">Mobile</button>
-        
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="assets/TrekNTrack.png" alt="Logo">
+        <button href="/">TrekNTrack</button>
       </div>
-      <div *ngIf="isMobile">
-        <!-- Display menu button for mobile -->
-        <button mat-icon-button [matMenuTriggerFor]="menu">
-          <mat-icon>menu</mat-icon>
-        </button>
-        <mat-menu #menu="matMenu">
-          <button mat-menu-item routerLink="/" routerLinkActive="active">Home</button>
-          <button mat-menu-item routerLink="/cca" routerLinkActive="active">CCA</button>
-          <button mat-menu-item routerLink="/mobile" routerLinkActive="active">Mobile</button>
-        </mat-menu>
+      
+      <div class="nav-buttons">
+        <button routerLink="/" >Home</button>
+        <button routerLink="/cca" >CCA</button>
+        <button routerLink="/mobile" >Mobile</button>
       </div>
-    </mat-toolbar-row>
-  </mat-toolbar>
-</header>
+    </div>
+
