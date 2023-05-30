@@ -1,11 +1,13 @@
 <header>
   <mat-toolbar color="primary">
     <mat-toolbar-row class="nav-bar">
-      <span>Logo</span>
+      <button class="logo" mat-button routerLink="/" routerLinkActive="active">TrekNTrack</button>
       <div class="nav-buttons" *ngIf="isDesktop">
         <!-- Display full navigation for desktop -->
         <button mat-button routerLink="/" routerLinkActive="active">Home</button>
+        <button mat-button routerLink="/cca" routerLinkActive="active">CCA</button>
         <button mat-button routerLink="/mobile" routerLinkActive="active">Mobile</button>
+        
       </div>
       <div *ngIf="isMobile">
         <!-- Display menu button for mobile -->
@@ -14,6 +16,7 @@
         </button>
         <mat-menu #menu="matMenu">
           <button mat-menu-item routerLink="/" routerLinkActive="active">Home</button>
+          <button mat-menu-item routerLink="/cca" routerLinkActive="active">CCA</button>
           <button mat-menu-item routerLink="/mobile" routerLinkActive="active">Mobile</button>
         </mat-menu>
       </div>

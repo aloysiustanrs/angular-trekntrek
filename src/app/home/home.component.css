@@ -1,0 +1,24 @@
+
+
+.logo img {
+  max-width: 200px;
+  height: auto;
+}
+
+.company-info {
+  margin-top: 20px;
+}
+
+.motto {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}

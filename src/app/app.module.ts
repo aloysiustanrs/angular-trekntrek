@@ -13,6 +13,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon'; 
 import { MatMenuModule } from '@angular/material/menu';
+import { CcaComponent } from './cca/cca.component';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -22,7 +24,8 @@ import { MatMenuModule } from '@angular/material/menu';
     FooterComponent,
     LayoutComponent,
     HomeComponent,
-    MobileComponent
+    MobileComponent,
+    CcaComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatButtonModule,
     MatToolbarModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
