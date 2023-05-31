@@ -61,9 +61,10 @@
 }
 
 .card-header h1{
-  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
   text-align: center;
-  margin: 40px; 
+  margin: 50px; 
 }
 
   
@@ -79,6 +80,19 @@
   margin: 20px;
   padding: 40px;
   box-sizing: border-box;
+}
+
+.card-title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+.card-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+
 }
 
 
@@ -107,9 +121,11 @@
   padding: 20px;
 }
 
-.other-benefits h1 {
-  color: #388e3c;
+.panel-title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
 }
+
 
 .point-list {
   padding: 50px;
@@ -117,6 +133,8 @@
 }
 
 .point-list li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
