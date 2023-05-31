@@ -1,7 +1,9 @@
 footer {
 
     text-align: center;
-    
+    padding: 20px 0;
+    background-color: #1f8f1d;
+    color: white;
   }
   
   .footer-content {
@@ -24,5 +26,5 @@ footer {
   
   a {
     text-decoration: none;
-    color: #333;
+    color: white;
   }

@@ -2,13 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #a3df78;
+  background-color: #1f8f1d;
+  
   padding: 20px;
 }
 
 .logo {
   display: flex;
   align-items: center;
+  
 }
 
 .logo img {
@@ -24,6 +26,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+  color: white;
 }
 
 .nav-buttons button {
@@ -34,10 +37,11 @@
   border: none;
   cursor: pointer;
   margin-left: 10px;
+  color: white;
 }
 
 .nav-buttons button:hover {
-  color: #a7a7a7;
+  color: #919191;
 }
 
 .nav-buttons button:focus {
