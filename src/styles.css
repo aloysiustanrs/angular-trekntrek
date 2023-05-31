@@ -4,6 +4,7 @@
 
 *{
     line-height: 30px;
+    font-family:'Open Sans', sans-serif;
 }
 
 html, body { 
@@ -20,6 +21,6 @@ body {
 }
 
 button{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
 }
