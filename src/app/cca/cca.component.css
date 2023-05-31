@@ -28,6 +28,7 @@
   font-size: 4rem;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
+  line-height: 70px;
   margin-bottom: 40px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
@@ -52,7 +53,7 @@
     background-image: url('../../assets/green-aesthetic.jpg');
     background-repeat: no-repeat;
     background-position: fixed;
-    background-size: auto;
+    background-size: cover;
     
 }
 
@@ -96,19 +97,6 @@
 }
 
 
-/* other-benefits */
-
-.other-benefits{
-  background-color: azure;
-  padding: 50px;
-}
-
-.other-benefits h1{
-  font-size: 2rem;
-  text-align: center;
-  margin: 20px; 
-}
-
 
 
 
@@ -121,9 +109,13 @@
   padding: 20px;
 }
 
+.panel{
+  padding: 20px;
+}
+
 .panel-title{
   font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 
@@ -133,9 +125,19 @@
 }
 
 .point-list li {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.point-list h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+.point-list p{
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  margin-bottom: 20px;
 }
 
 
