@@ -15,7 +15,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { CcaComponent } from './cca/cca.component';
 import { MatCardModule } from '@angular/material/card';
-
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 @NgModule({
@@ -37,7 +38,10 @@ import { MatCardModule } from '@angular/material/card';
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
-    MatCardModule
+    MatCardModule,
+    MatTabsModule,
+    MatExpansionModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

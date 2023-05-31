@@ -3,16 +3,23 @@
 
 
 *{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    line-height: 30px;
 }
 
-html, body { height: 100%;
+html, body { 
+    height: 100%;
     overflow-x: Hidden;
+    letter-spacing: 1px; /* Increase or decrease the value to adjust the letter spacing */
     
  }
 
 body { 
     margin: 0; 
+    font-family: 'Oswald', sans-serif;
     
 }
 
+button{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
